@@ -68,6 +68,7 @@ Route::post('/student-create', [StudentController::class, 'create'])->name('stud
 Route::put('/student-update/{id}', [StudentController::class, 'update'])->name('student-update');
 Route::delete('/student-delete/{id}', [StudentController::class, 'delete'])->name('student-delete');
 
+// extracurricular
 Route::get('/pages/students-extra', [StudentController::class, 'indexWithExtracurriculars'])->name('pages-students-extra');
 Route::get('/pages/students-extra-detail/{id}', [StudentController::class, 'showWithExtracurriculars'])->name('pages-students-extra-detail');
 Route::get('/pages/extracurriculars', [ExtracurricularController::class, 'index'])->name('pages-extracurriculars');
