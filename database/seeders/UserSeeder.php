@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
             [
                 'first_name' => 'Aqilah',
                 'last_name' => 'Akmalia',
-                'email' => 'aqila@gmail..com',
+                'email' => 'aqila@gmail.com',
                 'birthdate' => '2001-09-18',
                 'gender' => 'female',
                 'password' => Hash::make('admin2'),
