@@ -1,0 +1,48 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard"
+    },
+    {
+      "menuHeader": "Apps & Pages"
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings-account",
+      "url": "pages/account-settings-account"
+    },
+    {
+      "name": "Student",
+      "icon": "menu-icon tf-icons mdi mdi-account-school-outline",
+      "slug": "students",
+      "submenu": [
+        {
+          "url": "pages/students",
+          "name": "List Student",
+          "slug": "pages-students"
+        },
+        {
+          "url": "/pages/students-create",
+          "name": "Create Student",
+          "slug": "student-create"
+        }
+      ]
+    },
+    {
+      "name": "Student Extra",
+      "icon": "menu-icon tf-icons mdi mdi-account-school-outline",
+      "slug": "pages-students-extra",
+      "url": "pages/students-extra"
+    },
+    {
+      "name": "Extracurricular",
+      "icon": "menu-icon tf-icons mdi mdi-karate",
+      "slug": "pages-extracurriculars",
+      "url": "pages/extracurriculars"
+    }
+  ]
+}
