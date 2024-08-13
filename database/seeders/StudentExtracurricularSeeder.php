@@ -30,7 +30,6 @@ class StudentExtracurricularSeeder extends Seeder
                 'extracurricular_id' => 1,
                 'start_year' => 2024
             ],
-            // Tambahkan data lain sesuai kebutuhan
         ];
 
         DB::table('student_extracurricular')->insert($studentExtracurriculars);

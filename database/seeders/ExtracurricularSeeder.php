@@ -16,14 +16,14 @@ class ExtracurricularSeeder extends Seeder
     public function run()
     {
         DB::table('extracurriculars')->insert([
-            // [
-            //     'name' => 'Basketball',
-            //     'created_at' => Carbon::now()
-            // ],
-            // [
-            //     'name' => 'Music Club',
-            //     'created_at' => Carbon::now()
-            // ],
+            [
+                'name' => 'Basketball',
+                'created_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Music Club',
+                'created_at' => Carbon::now()
+            ],
             [
                 'name' => 'Debate Team',
                 'created_at' => Carbon::now()

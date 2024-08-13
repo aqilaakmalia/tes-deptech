@@ -16,26 +16,26 @@ class StudentSeeder extends Seeder
     public function run()
     {
         DB::table('students')->insert([
-            // [
-            //     'first_name' => 'Alice',
-            //     'last_name' => 'Smith',
-            //     'phone_number' => '081234567890',
-            //     'student_number' => '123456',
-            //     'address' => 'Jl. Sudirman No. 1',
-            //     'gender' => 'female',
-            //     'photo' => 'assets/img/avatars/1.png',
-            //     'created_at' => Carbon::now()
-            // ],
-            // [
-            //     'first_name' => 'Bob',
-            //     'last_name' => 'Johnson',
-            //     'phone_number' => '081234567891',
-            //     'student_number' => '123457',
-            //     'address' => 'Jl. Thamrin No. 2',
-            //     'gender' => 'male',
-            //     'photo' => 'assets/img/avatars/2.png',
-            //     'created_at' => Carbon::now()
-            // ],
+            [
+                'first_name' => 'Alice',
+                'last_name' => 'Smith',
+                'phone_number' => '081234567890',
+                'student_number' => '123456',
+                'address' => 'Jl. Sudirman No. 1',
+                'gender' => 'female',
+                'photo' => 'assets/img/avatars/1.png',
+                'created_at' => Carbon::now()
+            ],
+            [
+                'first_name' => 'Bob',
+                'last_name' => 'Johnson',
+                'phone_number' => '081234567891',
+                'student_number' => '123457',
+                'address' => 'Jl. Thamrin No. 2',
+                'gender' => 'male',
+                'photo' => 'assets/img/avatars/2.png',
+                'created_at' => Carbon::now()
+            ],
             [
                 'first_name' => 'Charlie',
                 'last_name' => 'Williams',
