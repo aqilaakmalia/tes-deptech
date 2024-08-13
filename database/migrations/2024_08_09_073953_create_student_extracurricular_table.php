@@ -17,6 +17,7 @@ class CreateStudentExtracurricularTable extends Migration
             $table->id();
             $table->foreignId('student_id')->constrained('students')->onDelete('cascade');
             $table->foreignId('extracurricular_id')->constrained('extracurriculars')->onDelete('cascade');
+            $table->year('start_year');
             $table->timestamps();
             $table->softDeletes();
         });

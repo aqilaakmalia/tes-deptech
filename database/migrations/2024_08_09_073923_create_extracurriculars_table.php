@@ -16,7 +16,6 @@ class CreateExtracurricularsTable extends Migration
         Schema::create('extracurriculars', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->year('start_year');
             $table->timestamps();
             $table->softDeletes();
         });
