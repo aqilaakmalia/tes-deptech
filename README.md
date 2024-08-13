@@ -1,3 +1,54 @@
+## Installation ⚒️
+
+Installing and running SchoolHub is super easy, please Follow below steps
+
+1. Open the terminal in your root directory of SchoolHub Laravel.
+2. Use the following command to install the composer
+
+```bash
+composer install
+```
+
+3. Run the following command to generate the key
+
+```bash
+php artisan key:generate
+```
+
+4. By running the following command, you will be able to get all the dependencies in your **node_modules** folder:
+
+```bash
+npm install
+```
+
+5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
+
+```bash
+npm run dev
+```
+
+6. To migrate the database tables, run the following command:
+
+```bash
+php artisan migrate
+```
+
+7. To seed the database with initial data, run the following command:
+
+```bash
+php artisan db:seed
+```
+
+8. To serve the application, you need to run the following command in the project directory
+
+```bash
+php artisan serve
+```
+
+9. Now navigate to the given address, and you will see your application is running.🥳
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
